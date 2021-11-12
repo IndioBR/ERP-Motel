@@ -8,3 +8,7 @@ INSERT INTO ROTINAS (nopai, nofilho, desnofilho) values ('tn_geral_config', 'tn_
 
 select * from rotinas
 select * from rotinas1
+
+select * from usuarios
+
+delete from USUARIOS where desusuario = 'eu'

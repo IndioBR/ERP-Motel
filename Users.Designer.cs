@@ -53,7 +53,9 @@ namespace ERP_Motel
             this.dgv_user_users.Location = new System.Drawing.Point(3, 3);
             this.dgv_user_users.Name = "dgv_user_users";
             this.dgv_user_users.ReadOnly = true;
+            this.dgv_user_users.RowHeadersVisible = false;
             this.dgv_user_users.RowTemplate.Height = 25;
+            this.dgv_user_users.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.dgv_user_users.Size = new System.Drawing.Size(436, 236);
             this.dgv_user_users.TabIndex = 0;
             // 
@@ -130,6 +132,7 @@ namespace ERP_Motel
             this.btn_user_modificar.TabIndex = 8;
             this.btn_user_modificar.Text = "Modificar";
             this.btn_user_modificar.UseVisualStyleBackColor = true;
+            this.btn_user_modificar.Click += new System.EventHandler(this.btn_user_modificar_Click);
             // 
             // btn_user_cadastrar
             // 
